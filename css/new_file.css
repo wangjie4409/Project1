@@ -1,0 +1,394 @@
+body{
+	width: 100%;
+	font-family: "微软雅黑";
+	font-size: 16px;
+	color: #111111;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+.topbox{
+	width: 100%;
+	
+}
+.top1{
+	width: 100%;
+	height: 2px;
+	background: #e27b58;
+}
+.nav ul{
+	list-style: none;
+	width: 100px;
+text-align: center;
+}
+.nav ul li{
+	width: 100px;
+	height: 30px;
+	background:#e27b58; 
+	
+}
+.nav ul li ul {
+	display: none;
+	width: 100px;
+	
+}
+.nav ul li:hover ul{
+	display: block;
+}
+.nav ul li:hover{
+	background: gray;
+}
+.top2{
+	
+	width: 980px;
+	margin: auto;
+	height: 200px;
+}
+.logobox{
+	width: 880px;
+	float: left;
+}
+.logo{
+	float: left;
+	padding-top: 30px;
+}
+
+.nav{
+	float: right;width: 100px;
+}
+.clear{
+	clear: both;
+}
+.menubox{
+	width: 100%;
+	height: 36px;
+	background:#e27b58; 
+}
+.menu{
+	width: 980px;
+	margin: 0 auto;
+}
+.menu ul{
+	list-style: none;
+}
+.menu ul li{
+	float:left;
+	width:190px;
+	height: 36px;
+	text-align: center;
+	border-right: 2px solid cornsilk;
+	
+	
+}
+
+.menu ul li:last-child{border-right: none;
+	
+}
+.menu ul li a{
+	text-decoration: none;
+	color: beige;
+	line-height: 36px;
+}
+.menu ul li a:hover{
+	background:#77bb26;
+	display: block;
+}
+/*这是banner部分*/
+.area{
+	width: 980px;
+	margin: 20px auto;
+	overflow: hidden;
+	position: relative;
+	cursor: pointer;
+}
+.js{
+	width: 980px;
+	height: 295px;
+	position: relative;
+	margin: 0 auto;
+}
+.jsNav{ position:absolute; 
+left:400px; 
+top:275px;}
+.jsNav a{width:20px; 
+height: 20px;
+border-radius: 20px;
+font-size:14px; 
+margin-right:6px;
+ display:inline;
+ height:20px; 
+ line-height:20px;
+  display:block;
+  float:left;
+   text-align:center;
+    color:black;
+    background:green;}
+    .jsNav a:hover{
+    	background: palegoldenrod;
+    	
+    }
+.m1{
+	font-family: "微软雅黑";
+	font-size: 50px;
+	color: green;
+}
+.m2{
+	font-family: "微软雅黑";
+	font-size: 40px;
+	color: #df7c55;
+	
+}
+h3{
+	color: green;
+	text-align: center;
+}
+.conter{
+	width: 980px;
+	margin: 0 auto;
+	
+
+	
+}
+.conterl{
+	float: left;
+	width: 490px;
+	border-right:dotted 1px cadetblue;
+	padding-right: 6px;
+	font-size: 16px;
+	
+}
+.conterr{
+	float: right;
+padding-left: 60px;
+
+width:410px;	
+}
+.conterr a{
+	color: coral;
+	
+}
+.conterr a:hover{
+	text-decoration:none;
+}
+/*这是conter部分*/
+.contone{
+	width: 980px;
+	margin: 0 auto;
+	border-top:dotted 1px cadetblue ;
+	padding-top: 20px;
+	
+}
+.contonel{
+	width: 490px;
+	float: left;
+	font-size: 10px;
+	margin-left: 10px;
+}
+.list1{
+	width: 440px;
+}
+
+.list2{
+	font-size: 20px;
+	width: 100px;
+	height: 30px;
+		background: #e27b58;
+		display: block;
+		text-align: center;
+		color: beige;
+}
+.list ol li{
+	width: 430px;
+	height: 30px;
+	border-bottom: dashed 1px cadetblue;
+}
+.list ol li a{
+	text-decoration: none;
+	color: #000000;
+	line-height: 30px;
+	
+}
+.list ol li span{
+	margin-right: 10px;
+}
+.list ol li a:hover{
+	text-decoration: underline;
+}
+.serviceExp{
+	float: left;
+	width: 100px;
+	
+}
+.serviceExp ol li{
+	font-size: 14px;
+}
+.serviceExp a{
+	color: red;
+	
+}
+.serviceExp a:hover{
+	text-decoration: none;
+}
+.conterr{
+	float: right;
+}
+/*下面的一个动态*/
+.area1{
+	width: 320px;
+	
+	overflow: hidden;
+	cursor: pointer;
+	position:relative;
+}
+.js1{
+	width: 320px;
+	height: 193px;
+	position: relative;
+	overflow: hidden;
+	overflow: hidden;
+}
+.jsNav1{
+	position: absolute;
+	top: 160px;
+	left: 150px;
+}
+.jsNav1 a{
+	width: 20px;
+	height: 20px;
+	background: burlywood;
+}
+.play {
+	width: 980px;
+	margin: 0 auto;
+	height:60px ;
+	border-bottom: 1px solid green;
+	border-top:1px solid green ;
+	padding-top: 10px;
+	
+}
+.play ul{
+	list-style: none;
+	
+}
+.play ul  li{
+	border:3px pink solid;
+	float: left;
+	margin: 5px;
+}
+.foot{
+	width: 100%;
+	height: 90px;
+	background: #54554d;
+	margin-top: 10px;
+	
+	
+}
+.foot ul{
+	list-style: none;
+	padding-top: 10px;
+	
+}
+.foot ul li{
+	float: left;
+	padding-left: 10px;
+	padding-top: 10px;
+	
+}
+.foot ul li a{
+	text-align: center;
+	color: beige;
+	text-decoration: none;
+}
+.foot ul li a:hover{
+	text-decoration: underline;
+}
+/*展会介绍部分*/
+.warp{
+	width: 980px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+.warpl{
+	float: left;
+	width: 190px;
+	text-align: center;
+}
+.warpl ul{
+	list-style: none;
+}
+.warpl ul .list4{
+	width: 190px;
+	height: 40px;
+	background:#e27b58 ;
+	line-height: 40px;
+}
+.warpl ul li{
+	width: 190px;
+	height: 40px;
+	border-bottom:#e27b58  1px solid ;
+	line-height: 40px;
+}
+.warpl ul li a{
+	color:black;
+	text-decoration: none;
+}
+.warpl ul .list4 a{
+	color: beige;
+}
+.warpl ul li a:hover{
+	background: greenyellow;
+	display: block;
+}
+h2{
+	color: #e27b58;
+	text-align: center;
+}
+.warpr{
+	width: 750px;
+	float: right;
+	margin-left: 20px;
+	text-align: center;
+	
+	
+}
+.warpr img{
+	padding-top: 40px;
+}
+.cent{
+	font-size: 14px;
+}
+.footer{
+	width: 100%;
+	height: 90px;
+	background: #54554d;
+}
+.foobox{
+	width: 980px;
+	margin: auto;
+	text-align: center;
+	margin-top: 30px;
+}
+.foobox ul{
+	list-style: none;
+	padding-top: 30px;
+	
+	
+}
+.foobox ul li{
+	float: left;
+	padding-left: 50px;
+}
+.foobox ul li a{
+	text-decoration: none;
+	color: beige;
+}
+.foobox ul li a:hover{
+	text-decoration: underline;
+}
+.warpr .img{
+	float: right;
+}
+.warpr{
+	font-size: 14px;
+}
